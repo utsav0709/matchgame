@@ -78,8 +78,8 @@ MatchGame.flipCard = function($card, $game) {
         color: 'rgb(255,255,255)'
       });
       $game.data('flipped')[1].css({
-        backgroundColor: rgb(153,153,153),
-        color: rgb(255,255,255)
+        backgroundColor: 'rgb(153,153,153)',
+        color: 'rgb(255,255,255)'
       });
     } else {
       let card1 = $game.data('flipped')[0];
