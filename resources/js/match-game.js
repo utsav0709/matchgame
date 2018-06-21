@@ -89,8 +89,8 @@ MatchGame.flipCard = function($card, $game) {
         card2.css('background-color', 'rgb(32,64,86)').text('').data('flipped', 'false');
 
       }, 350);
-      $game.data('flipped', []);
-    }
-  }
 
+    }
+    $game.data('flipped', []);
+  }
 };
