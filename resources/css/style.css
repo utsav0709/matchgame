@@ -1,0 +1,47 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  background-color: rgb(255,242,242);
+  padding-top: 5.25rem;
+  padding-bottom: 5.25rem;
+}
+
+/* Game Instructions */
+.col-lg-3 h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32,64,86);
+}
+.col-lg-3 h5 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(74,74,74);
+}
+.card {
+  height: 12.5rem;
+  background-color: rgb(32,64,86);
+  border-radius: 8px;
+  border: 4px solid #ffffff;
+  cursor: pointer;
+}
+.card-face-up {
+  font-weight: 900;
+  font-size: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-face-up-number {
+  color: rgb(255,255,255);
+}
+.card-greyed {
+  background-color: rgb(153,153,153);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 7rem;
+}
+.card-geryed number {
+  color: rgb(204,204,204);
+}
